@@ -135,9 +135,10 @@ erDiagram
 
 Setelah menjalankan seeder, kamu bisa masuk dengan akun berikut:
 
-| Email | Password |
-|-------|----------|
-| admin@toko-online | Passwoard |
+| Peran | Email | Password |
+|-------|-------|----------|
+| Admin | admin@toko-online.com | admin12345 |
+| Staff | staff@toko-online.com | staff12345 |
 
 ---
 

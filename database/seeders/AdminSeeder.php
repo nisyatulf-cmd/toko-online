@@ -10,12 +10,17 @@ class AdminSeeder extends Seeder
 {
     public function run(): void
     {
-        User::updateOrCreate(
-            ['email' => 'admin@toko-online'],
-            [
-                'name'     => 'Admin',
-                'password' => Hash::make('Passwoard'),
-            ]
-        );
+        $akun = [
+            ['Admin', 'admin@toko-online.com', 'admin12345', 'admin'],
+            ['Staff', 'staff@toko-online.com', 'staff12345', 'staff'],
+        ];
+
+        foreach ($akun as [$nama, $email, $password, $role]) {
+            $user = User::firstOrNew(['email' => $email]);
+            $user->name = $nama;
+            $user->password = Hash::make($password);
+            $user->role = $role;
+            $user->save();
+        }
     }
 }
