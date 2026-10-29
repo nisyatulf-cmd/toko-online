@@ -204,8 +204,7 @@ Pengujian dilakukan secara manual dengan menjalankan aplikasi lewat `php artisan
 
 **Penjualan**
 
-![Penjualan](docs/screenshot/05-penjualan.png)
-
+Screenshot aplikasi akan ditambahkan di folder `docs/screenshot`.
 ---
 
 ## 11. Struktur Folder
