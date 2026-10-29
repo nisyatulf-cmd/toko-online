@@ -1,4 +1,4 @@
-# Inventory Toko Online — Toko Nisya
+# toko-online Toko Online — Toko Nisya
 
 Aplikasi web berbasis Laravel untuk membantu Toko Nisya mengelola stok barang, data pemasok, pembelian, dan penjualan dalam satu tempat.
 
@@ -50,8 +50,8 @@ Toko Nisya membutuhkan cara yang lebih rapi untuk mencatat barang masuk dan bara
 
 ```bash
 # 1. Salin repositori ke komputer
-git clone https://github.com/nisyatulf-cmd/inventory-toko-online.git
-cd inventory-toko-online
+git clone https://github.com/nisyatulf-cmd/-toko-online.git
+cd -toko-online
 
 # 2. Pasang dependency PHP
 composer install
